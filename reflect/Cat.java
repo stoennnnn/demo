@@ -12,4 +12,7 @@ public class Cat {
     private String  sayHi(String value){
         return  "input value is："+value;
     }
+    static{
+        System.out.print("this is static method.");
+    }
 }
