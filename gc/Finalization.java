@@ -32,6 +32,6 @@ public class Finalization {
         SoftReference<String> softRef = new SoftReference<>(a);
         WeakReference<String> weakRef = new WeakReference<>(a);
         ReferenceQueue referenceQueue = new ReferenceQueue();
-        PhantomReference phantomReference = new PhantomReference(a, referenceQueue);
+        PhantomReference   phantomReference = new PhantomReference(a, referenceQueue);
     }
 }
