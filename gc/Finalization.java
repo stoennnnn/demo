@@ -4,6 +4,7 @@ import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
+import java.util.HashMap;
 
 /**
  * Created by 26725 on 2019/4/23.
@@ -33,5 +34,7 @@ public class Finalization {
         WeakReference<String> weakRef = new WeakReference<>(a);
         ReferenceQueue referenceQueue = new ReferenceQueue();
         PhantomReference   phantomReference = new PhantomReference(a, referenceQueue);
+        HashMap hashMap = new HashMap();
+
     }
 }
