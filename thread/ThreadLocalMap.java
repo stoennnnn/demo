@@ -1,6 +1,4 @@
-package src;
-
-import java.util.concurrent.Callable;
+package thread;
 
 /**
  * Created by 26725 on 2019/5/5.
