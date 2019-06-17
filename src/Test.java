@@ -9,10 +9,8 @@ import java.util.stream.Stream;
 
 public class Test {
     public static void main(String[] args) {
-        ArrayList<Integer> lis = new ArrayList<>(1);
-        lis.add(1);
-        lis.add(2);
-        System.out.println(lis.toString());
-
+        Integer a = 127;
+        Integer b = 127 ;
+        System.out.println(a==b);
     }
 }
