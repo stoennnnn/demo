@@ -6,6 +6,7 @@ import src.proxy.Person;
 /**
  * Created by  @ZQL  on 2019/6/17.
  * cglib 的client
+ * https://www.cnblogs.com/xrq730/p/6661692.html
  */
 public class Client {
     public static void main(String[] args) {
