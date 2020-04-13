@@ -1,0 +1,1 @@
+package src.Generic;/** * @Description: * @Date: 2020/4/13 15:01 * @Auther: zql */public class Generic {}
