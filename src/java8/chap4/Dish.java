@@ -1,5 +1,7 @@
-package lambdasinaction.chap4;
-import java.util.*;
+package src.java8.chap4;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class Dish {
 

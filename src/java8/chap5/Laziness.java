@@ -1,4 +1,4 @@
-package lambdasinaction.chap5;
+package src.java8.chap5;
 
 import java.util.Arrays;
 import java.util.List;

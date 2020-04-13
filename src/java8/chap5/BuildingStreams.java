@@ -1,10 +1,12 @@
-package lambdasinaction.chap5;
+package src.java8.chap5;
 
-import java.util.*;
-import java.util.function.IntSupplier;
-import java.util.stream.*;
 import java.nio.charset.Charset;
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.function.IntSupplier;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class BuildingStreams {
 
@@ -66,7 +68,7 @@ public class BuildingStreams {
               };
          IntStream.generate(fib).limit(10).forEach(System.out::println);
 
-         long uniqueWords = Files.lines(Paths.get("lambdasinaction/chap5/data.txt"), Charset.defaultCharset())
+         long uniqueWords = Files.lines(Paths.get("src.java8.chap4chap5/data.txt"), Charset.defaultCharset())
                                  .flatMap(line -> Arrays.stream(line.split(" ")))
                                  .distinct()
                                  .count();

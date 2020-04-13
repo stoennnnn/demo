@@ -1,7 +1,7 @@
-package lambdasinaction.chap6;
+package src.java8.chap6;
 
-import static java.util.stream.Collectors.*;
-import static lambdasinaction.chap6.Dish.menu;
+import static java.util.stream.Collectors.reducing;
+import static src.java8.chap6.Dish.menu;
 
 public class Reducing {
 

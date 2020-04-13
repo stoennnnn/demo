@@ -1,13 +1,13 @@
-package lambdasinaction.chap6;
+package src.java8.chap6;
 
-import java.util.function.*;
+import java.util.function.Consumer;
 
 public class CollectorHarness {
 
-    public static void main(String[] args) {
-        //System.out.println("Partitioning done in: " + execute(PartitionPrimeNumbers::partitionPrimes) + " msecs");
-        System.out.println("Partitioning done in: " + execute(PartitionPrimeNumbers::partitionPrimesWithCustomCollector) + " msecs" );
-    }
+//    public static void main(String[] args) {
+//        //System.out.println("Partitioning done in: " + execute(PartitionPrimeNumbers::partitionPrimes) + " msecs");
+//        System.out.println("Partitioning done in: " + execute(PartitionPrimeNumbers::partitionPrimesWithCustomCollector) + " msecs" );
+//    }
 
     private static long execute(Consumer<Integer> primePartitioner) {
         long fastest = Long.MAX_VALUE;

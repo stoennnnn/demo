@@ -1,8 +1,7 @@
-package lambdasinaction.chap5;
+package src.java8.chap5;
 
-import lambdasinaction.chap5.*;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
@@ -81,10 +80,11 @@ public class PuttingIntoPractice{
         
         
         // Query 7: What's the highest value in all the transactions?
-        int highestValue = 
-            transactions.stream()
+        int highestValue = transactions
+                .stream()
                         .map(Transaction::getValue)
                         .reduce(0, Integer::max);
-        System.out.println(highestValue);      
+        System.out.println(highestValue);
+
     }
 }

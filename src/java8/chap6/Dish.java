@@ -1,6 +1,8 @@
-package lambdasinaction.chap6;
+package src.java8.chap6;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static java.util.Arrays.asList;
 

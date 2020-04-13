@@ -1,10 +1,12 @@
-package lambdasinaction.chap6;
+package src.java8.chap6;
 
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 import static java.util.Comparator.comparingInt;
 import static java.util.stream.Collectors.*;
-import static lambdasinaction.chap6.Dish.menu;
+import static src.java8.chap6.Dish.menu;
 
 public class Partitioning {
 

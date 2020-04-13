@@ -1,21 +1,23 @@
-package lambdasinaction.chap5;
+package src.java8.chap5;
 
-import lambdasinaction.chap4.*;
+import src.java8.chap4.*;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+
 import static java.util.stream.Collectors.toList;
-import static lambdasinaction.chap4.Dish.menu;
+import static src.java8.chap4.Dish.menu;
 
 public class Mapping{
 
     public static void main(String...args){
 
         // map
-        List<String> dishNames = menu.stream()
-                                     .map(Dish::getName)
-                                     .collect(toList());
-        System.out.println(dishNames);
-
+//        List<String> dishNames = menu.stream()
+//                                     .map(Dish::getName)
+//                                     .collect(toList());
+        List<String> collect = menu.stream().map(Dish::getName).collect(toList());
+        System.out.println(collect);
         // map
         List<String> words = Arrays.asList("Hello", "World");
         List<Integer> wordLengths = words.stream()

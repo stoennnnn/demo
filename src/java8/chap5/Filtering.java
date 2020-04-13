@@ -1,11 +1,12 @@
-package lambdasinaction.chap5;
-import lambdasinaction.chap4.*;
+package src.java8.chap5;
 
-import java.util.stream.*;
-import java.util.*;
+import src.java8.chap4.*;
+
+import java.util.Arrays;
+import java.util.List;
+
 import static java.util.stream.Collectors.toList;
-
-import static lambdasinaction.chap4.Dish.menu;
+import static src.java8.chap4.Dish.menu;
 
 public class Filtering{
 
@@ -23,7 +24,7 @@ public class Filtering{
         List<Integer> numbers = Arrays.asList(1, 2, 1, 3, 3, 2, 4);
         numbers.stream()
                .filter(i -> i % 2 == 0)
-               .distinct()
+               .distinct() //去重
                .forEach(System.out::println);
 
         // Truncating a stream

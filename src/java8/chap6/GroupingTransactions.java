@@ -1,4 +1,4 @@
-package lambdasinaction.chap6;
+package src.java8.chap6;
 
 import java.util.*;
 
