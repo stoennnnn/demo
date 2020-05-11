@@ -1,16 +1,15 @@
 package src;
 
-import java.lang.reflect.Array;
-import java.util.*;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class Test {
     public static void main(String[] args) {
-        Integer a = 127;
-        Integer b = 127 ;
-        System.out.println(a==b);
+        // ObjectInputStream ois = new ObjectInputStream(is);
+        // ObjectInputStream ois = new SerialKiller(is, "C:\\Users\\Administrator\\Desktop\\seriable\\serialkiller.conf");
+        //序列化
+        Person person = new Person();
+        person.setName("混世魔王");
+        SerializationUtil.writeObject(person);
+
+        Person p = (Person) SerializationUtil.readObject();
+        System.out.println("name = " + p.getName());
     }
 }

@@ -6,8 +6,6 @@ import java.util.Random;
  * 
  * ClassName：src.jvm.PermGenError <br>
  * Description：jvm中永久代存在检测<br>
- * Copyright © 2019/6/17 xnky.travelsky.net Inc. All rights reserved. <br>
- * Company：Aviation Cares Of Southwest Chen Du LTD  <br>
  * @author 26725 <br>
  * date 2019/6/17 16:17<br>
  * @version v1.0 <br>

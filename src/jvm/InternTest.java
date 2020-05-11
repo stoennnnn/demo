@@ -4,8 +4,6 @@ package src.jvm;
  * 
  * ClassName：src.jvm.InternTest <br>
  * Description：不同版本的intern方法测试<br>
- * Copyright © 2019/6/17 xnky.travelsky.net Inc. All rights reserved. <br>
- * Company：Aviation Cares Of Southwest Chen Du LTD  <br>
  * @author 26725 <br>
  * date 2019/6/17 16:16<br>
  * @version v1.0 <br>
